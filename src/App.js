@@ -12,6 +12,7 @@ import SexHealthPage from "./components/Services/SexHealthPage.jsx";
 import HairFallPage from "./components/Services/HairFallPage.jsx";
 import SkinCarePage from "./components/Services/SkinCarePage.jsx";
 import PimpleTreatmentPage from "./components/Services/PimpleTreatmentPage.jsx";
+import ContactUsPage from "./components/ContactUs/ContactUsPage.jsx";
 
 function App() {
   return (
@@ -28,6 +29,7 @@ function App() {
       <HairFallPage />
       <SkinCarePage />
       <PimpleTreatmentPage />
+      <ContactUsPage />
     </BrowserRouter>
   );
 }
